@@ -1,0 +1,20 @@
+.item, .link{
+    height: 40px;
+    line-height: 40px;    
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+    color: #3fc38f;
+}
+
+.link:hover {
+    color: #FF6A6A;
+}
+
+.title {
+    text-align: center;
+    color: #00C5CD
+}

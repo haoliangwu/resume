@@ -1,0 +1,49 @@
+.profile {
+    height: 200px;
+}
+
+
+/*avatar*/
+
+.avatar-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+.avatar {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    border: 10px solid #3fc38f;
+    border-radius: 50%;
+    background: url(../image/avatar.png) top/cover no-repeat;
+}
+
+.avatar:hover {
+    transition: box-shadow linear .5s;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+
+/*info*/
+
+.info-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+.info {
+    padding-left: 15px;
+    border-left: 3px dotted #3fc38f;
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    height: 160px;
+    transform: translate(0, -50%);
+    display: inline-block;
+}
+

@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-class Profile extends Component {
+class Avatar extends Component {
   render () {
     return (
-      <div>
+      <div className='avatar'>
       </div>
     )
   }
 }
 
-export default Profile
+export default Avatar
