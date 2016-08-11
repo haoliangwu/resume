@@ -10,7 +10,6 @@ class Profile extends Component {
   render () {
     return (
       <Grid width={1} className='profile'>
-        <h1 className='title'>Profile</h1>
         <Grid width={1 / 2} className='avatar-wrapper'>
           <Avatar/>
         </Grid>

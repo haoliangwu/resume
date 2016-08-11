@@ -1,0 +1,9 @@
+.headline{
+    text-align: center;
+    font-size: 3em;
+    background: #3fc38f;
+}
+
+.headline .title{
+    color: white;
+}
