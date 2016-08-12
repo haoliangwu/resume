@@ -13,3 +13,6 @@ npm-debug.log
 # vscode
 jsconfig.json
 .vscode
+
+# gulp deploy
+.publish
