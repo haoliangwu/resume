@@ -10,10 +10,10 @@ class Experience extends Component {
   render () {
     return (
       <Grid width={1} className='experience'>
-        <Grid width={1 / 2} className='work-wrapper'>
+        <Grid width={1 / 2}>
           <Work/>
         </Grid>
-        <Grid width={1 / 2} className='project-wrapper'>
+        <Grid width={1 / 2}>
           <WorkExperience/>
         </Grid>
       </Grid>

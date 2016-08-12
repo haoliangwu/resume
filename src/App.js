@@ -4,6 +4,7 @@ import { Section, HeadLine } from './common'
 import Profile from './profile'
 import Experience from './experience'
 import Projects from './projects'
+import Skills from './skills'
 
 import './common/common.css'
 
@@ -28,6 +29,12 @@ class App extends Component {
             Projects
           </HeadLine>
           <Projects/>
+        </Section>
+        <Section>
+          <HeadLine>
+            Skills
+          </HeadLine>
+          <Skills/>
         </Section>
       </Grid>
     )

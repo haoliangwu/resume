@@ -1,0 +1,86 @@
+.skills {
+    height: 150px;
+    color: #3fc38f;
+}
+
+.skill-wrapper {
+    height: 100%;
+    position: relative;
+}
+
+.skill,
+.skill-name,
+.skill-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+}
+
+.skill {
+    width: 120px;
+    height: 120px;
+}
+
+.skill-name {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.2em;
+    transition: transform 1s;
+}
+
+.skill-overlay {
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    transition: font-size 1s;
+}
+
+.skill-overlay:hover {
+    font-size: 1.5em;
+}
+
+.skill-overlay:hover + .skill-name {
+    transform: translate(-50%, -50%) rotate(360deg);
+}
+
+.wrapper {
+    width: 60px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+.right {
+    right: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border: 10px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+}
+
+.rightcircle {
+    border-top: 10px solid #3fc38f;
+    border-right: 10px solid #3fc38f;
+    right: 0;
+    transform: rotate(-135deg)
+}
+
+.leftcircle {
+    border-bottom: 10px solid #3fc38f;
+    border-left: 10px solid #3fc38f;
+    left: 0;
+    transform: rotate(-135deg)
+}
