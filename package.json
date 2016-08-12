@@ -4,6 +4,7 @@
   "private": true,
   "devDependencies": {
     "classnames": "^2.2.5",
+    "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.4",
     "pubsub-js": "^1.5.3",
     "rctui": "^0.6.7",
