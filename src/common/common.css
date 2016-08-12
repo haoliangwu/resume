@@ -13,9 +13,30 @@
 
 .link:hover {
     color: #FF6A6A;
+    text-decoration: underline;
 }
 
-.title, .sub-title {
+.link:hover::after {
+    content: ' #';
+    color: #3fc38f;
+    display: inline;
+}
+
+.title,
+.sub-title {
+    position: relative;
     display: block;
     text-align: center;
+}
+
+.title {
+    color: #3fc38f;
+}
+
+.sub-title {
+    color: #999;
+}
+
+b {
+    color: #FF6A6A;
 }

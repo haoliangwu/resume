@@ -1,0 +1,40 @@
+.projects {
+    color: #3fc38f;
+}
+
+.projects .title {
+    text-align: left;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.projects .role,
+.projects .date {
+    position: absolute;
+    font-size: 0.6em;
+}
+
+.projects .role {
+    padding-left: 25px;
+    left: 0;
+}
+
+.projects .date {
+    padding-right: 25px;
+    right: 0;
+}
+
+.projects .description {
+    padding: 0 25px;
+}
+
+.project {
+    margin: 1px;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.project:hover {
+    border-color: #FF6A6A;
+}

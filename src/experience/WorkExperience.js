@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 class WorkExperience extends Component {
   render () {
     return (
-      <section className='project'>
+      <section className='work-exp'>
         <h2 className='title'>工作经验</h2>
-        <small className='sub-title'>Project</small>
+        <small className='sub-title'>experience</small>
         <ul>
           <li>
             2014.7-2015.7
@@ -20,10 +20,10 @@ class WorkExperience extends Component {
                 1. Jira, 负责验收开发对bug提交的fix是否有效
               </li>
               <li>
-                2. Smoke Testing，广度优先级测试
+                2. Smoke Testing，广度优先测试
               </li>
               <li>
-                3. Testray Testing，深度优先级测试
+                3. Testray Testing，深度优先测试
               </li>
             </ol>
           </li>

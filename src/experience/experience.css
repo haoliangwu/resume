@@ -1,5 +1,5 @@
 .work,
-.project {
+.work-exp {
     position: relative;
     padding: 0 25px;
     color: #3fc38f;
@@ -26,29 +26,29 @@
     margin: 0;
 }
 
-.project {
+.work-exp {
     border-left: 3px dotted #3fc38f;
 }
 
-.project .title,
-.project .sub-title {
+.work-exp .title,
+.work-exp .sub-title {
     text-align: right;
     padding-right: 25px;
 }
 
-.project ul>li {
+.work-exp ul>li {
     text-align: left;
     padding-left: 50px;
 }
 
-.project li:last-of-type {
+.work-exp li:last-of-type {
     margin-bottom: 25px;
 }
 
-.project> ul:not(:last-of-type) {
+.work-exp> ul:not(:last-of-type) {
     border-bottom: 3px dotted #3fc38f;
 }
 
-.project ol {
+.work-exp ol {
     margin-top: 10px;
 }
