@@ -13,7 +13,7 @@
 .avatar {
     position: absolute;
     top: 50%;
-    left: 75%;
+    left: 50%;
     transform: translate(-50%, -50%);
     display: inline-block;
     width: 160px;
@@ -29,14 +29,15 @@
 }
 
 
-/*info*/
+/*contact*/
 
-.info-wrapper {
+.info-wrapper,
+.contact-wrapper {
     position: relative;
     height: 100%;
 }
 
-.info {
+.contact {
     padding-left: 15px;
     border-left: 3px dotted #3fc38f;
     list-style: none;
@@ -46,4 +47,3 @@
     transform: translate(0, -50%);
     display: inline-block;
 }
-

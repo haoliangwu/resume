@@ -1,21 +1,28 @@
 import React, { Component } from 'react'
 import Grid from 'rctui/Grid'
-import HeadLine from './headline'
+import { Section, HeadLine } from './common'
 import Profile from './profile'
+import Experience from './experience'
 
 import './common/common.css'
 
 class App extends Component {
   render () {
     return (
-      <div>
-        <Grid width={3 / 5} offset={1 / 5}>
-          <HeadLine>
-            Hi, I am Lyon Wu
-          </HeadLine>
-          <Profile/>
+        <Grid width={1 / 2} offset={1 / 4}>
+          <Section>
+            <HeadLine>
+              Hi, I am Lyon Wu
+            </HeadLine>
+            <Profile/>
+          </Section>
+          <Section>
+            <HeadLine>
+              Experience
+            </HeadLine>
+            <Experience/>
+          </Section>
         </Grid>
-      </div>
     )
   }
 }
