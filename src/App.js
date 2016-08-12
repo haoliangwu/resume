@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Grid from 'rctui/Grid'
 import { Section, HeadLine } from './common'
 import Profile from './profile'
+import Expectation from './expectation'
 import Experience from './experience'
 import Projects from './projects'
 import Skills from './skills'
@@ -20,6 +21,12 @@ class App extends Component {
         </Section>
         <Section>
           <HeadLine>
+            Expectation
+          </HeadLine>
+          <Expectation/>
+        </Section>
+        <Section>
+          <HeadLine>
             Experience
           </HeadLine>
           <Experience/>
@@ -35,6 +42,16 @@ class App extends Component {
             Skills
           </HeadLine>
           <Skills/>
+        </Section>
+        <Section>
+          <HeadLine>
+            Languages
+          </HeadLine>
+        </Section>
+        <Section>
+          <HeadLine>
+            Others
+          </HeadLine>
         </Section>
       </Grid>
     )

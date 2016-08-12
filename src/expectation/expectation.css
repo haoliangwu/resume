@@ -1,0 +1,66 @@
+.expec {
+    position: relative;
+    height: 80px;
+}
+
+.expec label {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    display: block;
+    width: 100%;
+    height: 80px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.card {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all cubic-bezier(.73,2.01,.67,.63) 600ms;
+    z-index: 20;
+    font-size: 2em
+}
+
+.card div {
+    line-height: 80px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #FFF;
+    text-align: center;
+    backface-visibility: hidden;
+    border-radius: 2px;
+}
+
+.card .front {
+    color: #3fc38f;
+}
+
+.card .back {
+    background: #FFF8DC;
+    color: #3fc38f;
+    transform: rotateX(180deg);
+}
+
+input {
+    display: none;
+}
+
+:checked+ .card {
+    transform: rotateX(180deg);
+}
+
+label:hover .card {
+    transform: rotateX(20deg);
+    box-shadow: 0 20px 20px rgba(50,50,50,.2);
+}
+
+label:hover :checked+ .card {
+    transform: rotateX(160deg);
+    box-shadow: 0 20px 20px rgba(50,50,50,.2);
+}
