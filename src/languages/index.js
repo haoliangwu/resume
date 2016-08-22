@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Grid from 'rctui/Grid'
 
 import Skill from '../common/SkillCircle'
+import './languages.css'
 
 class Languages extends Component {
   render () {

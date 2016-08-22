@@ -3,25 +3,30 @@ import Grid from 'rctui/Grid'
 
 import Skill from '../common/SkillCircle'
 
+import SkillInfo from './Info'
+
+import './skills.css'
+
 class Skills extends Component {
   render () {
     return (
       <Grid width={1} className='skills'>
         <Grid width={1 / 5} className='skill-wrapper'>
-          <Skill name='JS' percent={75}/>
+          <Skill name='JS' percent={75} />
         </Grid>
         <Grid width={1 / 5} className='skill-wrapper'>
-          <Skill name='CSS' percent={65}/>
+          <Skill name='CSS' percent={65} />
         </Grid>
         <Grid width={1 / 5} className='skill-wrapper'>
-          <Skill name='HTML' percent={80}/>
+          <Skill name='HTML' percent={80} />
         </Grid>
         <Grid width={1 / 5} className='skill-wrapper'>
-          <Skill name='Node' percent={70}/>
+          <Skill name='Node' percent={70} />
         </Grid>
         <Grid width={1 / 5} className='skill-wrapper'>
-          <Skill name='Java' percent={50}/>
+          <Skill name='Java' percent={50} />
         </Grid>
+        <SkillInfo/>
       </Grid>
     )
   }
