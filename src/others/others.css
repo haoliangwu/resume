@@ -1,0 +1,35 @@
+.others {
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+}
+
+.play span {
+    display: inline-block;
+    width: calc(100%/3);
+    line-height: 50px;
+    color: #3fc38f;
+    text-align: center;
+    font-size: 2em;
+}
+
+.play {
+    position: absolute;
+    width: 300%;
+    animation: move 15s cubic-bezier(.92, 2.04, 1, .86) infinite alternate;
+}
+
+@keyframes move {
+    0%,
+    20% {
+        transform: translateX(0);
+    }
+    40%,
+    60% {
+        transform: translateX(calc(-100%/3));
+    }
+    80%,
+    100% {
+        transform: translateX(calc(-100%/3*2));
+    }
+}

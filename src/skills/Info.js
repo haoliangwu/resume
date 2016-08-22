@@ -27,8 +27,6 @@ class Info extends Component {
               - 熟练使用主流前端框架，如react, redux, react-router, bootstrap等。
             </li>
           </ul>
-        </Grid>
-        <Grid width={1 / 2}>
           <h2>后端方向</h2>
           <ul>
             <li>
@@ -58,9 +56,7 @@ class Info extends Component {
               - 可以按照page object的思想开发自动化测试框架及用例
             </li>
           </ul>
-        </Grid>
-        <Grid width={1 / 2}>
-          <h2>通用知识</h2>
+          <h2>通用</h2>
           <ul>
             <li>
               - 了解http协议, json, xml等相关知识
@@ -75,8 +71,18 @@ class Info extends Component {
               - 熟悉使用git作为版本控制工具
             </li>
           </ul>
-        </Grid>
-        <Grid width={1 / 2}>
+          <h2>软素质</h2>
+          <ul>
+            <li>
+              - 自学能力强，可以参照技术文档进行系统全面的学习
+            </li>
+            <li>
+              - 善于与人合作，善于发现、解决工作中发现的问题
+            </li>
+            <li>
+              - 有毅力，不轻言说放弃，会尝试各种方法解决难题
+            </li>
+          </ul>
           <h2>其他</h2>
           <ul>
             <li>
@@ -87,20 +93,6 @@ class Info extends Component {
             </li>
             <li>
               - 熟悉Liferay Portal的使用及二次开发，如theme, portlet等
-            </li>
-          </ul>
-        </Grid>
-        <Grid width={1 / 2}>
-          <h2>软素质</h2>
-          <ul>
-            <li>
-              - 自学能力强
-            </li>
-            <li>
-              - 善于与人合作
-            </li>
-            <li>
-              - 有毅力
             </li>
           </ul>
         </Grid>

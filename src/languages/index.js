@@ -13,7 +13,7 @@ class Languages extends Component {
             <Skill name='Listen' percent={80} />
           </Grid>
           <Grid width={1 / 5} className='skill-wrapper'>
-            <Skill name='Speak' percent={50} />
+            <Skill name='Speak' percent={65} />
           </Grid>
           <Grid width={1 / 5} className='skill-wrapper'>
             <Skill name='Read' percent={85} />

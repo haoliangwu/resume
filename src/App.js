@@ -14,7 +14,7 @@ import './common/common.css'
 class App extends Component {
   render () {
     return (
-      <Grid width={1 / 2} offset={1 / 4}>
+      <Grid width={1 / 2} offset={1 / 4} className='resume'>
         <Section>
           <HeadLine>
             Hi, I am Lyon Wu
@@ -56,6 +56,11 @@ class App extends Component {
             Others
           </HeadLine>
           <Others/>
+        </Section>
+        <Section>
+          <footer>
+            Designed and implemented by Lyon Wu
+          </footer>
         </Section>
       </Grid>
     )
