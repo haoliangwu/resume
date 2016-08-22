@@ -1,11 +1,7 @@
-.skills {
-    height: 150px;
-    color: #3fc38f;
-}
-
 .skill-wrapper {
-    height: 100%;
+    height: 150px;
     position: relative;
+    color: #3fc38f;
 }
 
 .skill,

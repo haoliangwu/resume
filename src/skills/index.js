@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import Grid from 'rctui/Grid'
 
-import Skill from './Skill'
-
-import './skills.css'
+import Skill from '../common/SkillCircle'
 
 class Skills extends Component {
   render () {

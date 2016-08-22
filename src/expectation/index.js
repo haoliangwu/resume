@@ -13,7 +13,7 @@ class Expectation extends Component {
               Front End Dev & QA Engineer
             </div>
             <div className='back'>
-              Salary 7k - 10k in Dalian
+              About 6k - 8k in Dalian
             </div>
           </div>
         </label>

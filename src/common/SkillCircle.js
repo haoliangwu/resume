@@ -1,6 +1,8 @@
 import React, { Component, PropTypes } from 'react'
 
-class Skill extends Component {
+import './skill-circle.css'
+
+class SkillCircle extends Component {
   render () {
     const {name, percent} = this.props
 
@@ -24,9 +26,9 @@ class Skill extends Component {
   }
 }
 
-Skill.propTypes = {
+SkillCircle.propTypes = {
   name: PropTypes.string,
   percent: PropTypes.number
 }
 
-export default Skill
+export default SkillCircle

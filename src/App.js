@@ -6,6 +6,8 @@ import Expectation from './expectation'
 import Experience from './experience'
 import Projects from './projects'
 import Skills from './skills'
+import Languages from './languages'
+import Others from './others'
 
 import './common/common.css'
 
@@ -21,9 +23,9 @@ class App extends Component {
         </Section>
         <Section>
           <HeadLine>
-            Expectation
+            Skills
           </HeadLine>
-          <Expectation/>
+          <Skills/>
         </Section>
         <Section>
           <HeadLine>
@@ -33,25 +35,27 @@ class App extends Component {
         </Section>
         <Section>
           <HeadLine>
+            Expectation
+          </HeadLine>
+          <Expectation/>
+        </Section>
+        <Section>
+          <HeadLine>
             Projects
           </HeadLine>
           <Projects/>
         </Section>
         <Section>
           <HeadLine>
-            Skills
+            English
           </HeadLine>
-          <Skills/>
-        </Section>
-        <Section>
-          <HeadLine>
-            Languages
-          </HeadLine>
+          <Languages/>
         </Section>
         <Section>
           <HeadLine>
             Others
           </HeadLine>
+          <Others/>
         </Section>
       </Grid>
     )
