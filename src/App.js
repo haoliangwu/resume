@@ -58,6 +58,11 @@ class App extends Component {
           <Others/>
         </Section>
         <Section>
+          <HeadLine>
+            Thank You
+          </HeadLine>
+        </Section>
+        <Section>
           <footer>
             Designed and implemented by Lyon Wu
           </footer>
